@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<string>6A2B046C-E3D2-4FD4-BCCF-A5A6AFC3EB58</string>
+	<key>meta</key>
+	<string>NO</string>
+	<key>steps</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>automate</key>
+			<string>YES</string>
+			<key>computeridkey</key>
+			<string>cn</string>
+			<key>odadmin</key>
+			<string>diradmin</string>
+			<key>odadminpassword</key>
+			<string>U1Boa2trZUhLR2FKeFp2cDB3R095Zz09</string>
+			<key>odclientmanagement</key>
+			<string>NO</string>
+			<key>odcreatecomputergroups</key>
+			<string>NO</string>
+			<key>odserver</key>
+			<string>odm.puppetlabs.vm</string>
+			<key>odssl</key>
+			<string>YES</string>
+			<key>odtrustedbinding</key>
+			<string>YES</string>
+			<key>targettype</key>
+			<string>lastselectedtarget</string>
+			<key>task</key>
+			<string>opendirectory</string>
+			<key>title</key>
+			<string>Open Directory binding</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>ardadmingroup</key>
+			<string></string>
+			<key>automate</key>
+			<string>YES</string>
+			<key>computerinformation</key>
+			<string>YES</string>
+			<key>computername</key>
+			<string>YES</string>
+			<key>enableardagent</key>
+			<string>NO</string>
+			<key>freezehomedirs</key>
+			<string>NO</string>
+			<key>licenses</key>
+			<string>NO</string>
+			<key>localusers</key>
+			<string>NO</string>
+			<key>network</key>
+			<string>NO</string>
+			<key>skipapplesetup</key>
+			<string>NO</string>
+			<key>targettype</key>
+			<string>lastselectedtarget</string>
+			<key>task</key>
+			<string>configure</string>
+			<key>title</key>
+			<string>Configure</string>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>New Awesome Workflow</string>
+</dict>
+</plist>
